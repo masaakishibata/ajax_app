@@ -7,3 +7,6 @@
 .post-date{
   color: gray;
 }
+div[date-ckeck="true"] {
+  background: #585555;
+}
