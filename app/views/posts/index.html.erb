@@ -8,8 +8,8 @@
 </div>
 
 <% @posts.each do |post| %>
-<div class="post" deta-id=<%= post.id %> date-ckeck=<%= post.ckecked %>>
-    <div class="post-date">
+<div class="post" deta-id=<%= post.id %> data-check=<%= post.checked %>>
+    <div class="post-data">
       投稿日時：<%= post.created_at %>
     </div>
     <div class="post-content">
